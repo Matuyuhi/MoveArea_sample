@@ -21,10 +21,10 @@ public class AreaMoveScript: MonoBehaviour
         }
     }
     private void Update() {
-        foreach (var hit in getHitCastAll()) {
-            Debug.Log(hit.name);
+        // foreach (var hit in getHitCastAll()) {
+        //     Debug.Log(hit.name);
             
-        }
+        // }
         
     }
 
